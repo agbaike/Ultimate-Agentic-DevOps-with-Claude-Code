@@ -1,30 +1,36 @@
 # DMI Portfolio Website (Static HTML/CSS)
 
 This repository contains a clean, professional-looking **static portfolio website** used in **DevOps Micro Internship (DMI)** Week 1 to practice:
-- Linux basics
-- Nginx hosting
-- Deployment proof / ownership
+
+- AWS S3 and CloudFront hosting
+- Terraform provisioning
+- GitHub Actions automated deployment
 - Production-style checks
 
-✅ Students deploy this website on an Ubuntu VM using Nginx and keep it live for 24 hours.
+✅ Students deploy this website to AWS using S3 and CloudFront, provisioned with Terraform, and automated via GitHub Actions.
 
 ---
 
 ## Who is this for?
+
 - DMI students (beginner → intermediate)
-- Anyone learning how to host a static site with Nginx on Linux
+- Anyone learning how to host a static site on AWS using Infrastructure as Code
 
 ---
 
 ## What you will build
+
 A portfolio-style website hosted on:
-- **Ubuntu VM**
-- **Nginx**
-- Accessible via: `http://<public-ip>`
+
+- **AWS S3** (static file storage)
+- **AWS CloudFront** (content delivery network)
+- Provisioned with **Terraform**
+- Deployed automatically via **GitHub Actions**
 
 ---
 
 ## Mandatory Ownership Proof (DMI Rule)
+
 Before you deploy, you MUST edit the footer and add your details:
 
 Original:
@@ -36,7 +42,10 @@ Original:
 Add this line (example):
 
 ```html
-<p><strong>Deployed by:</strong> DMI Cohort 2 | Rahul Sharma | Group 4 | Week 1 | 16-01-2026</p>
+<p>
+  <strong>Deployed by:</strong> DMI Cohort 3 | Favour Agbaike | Group 1 | Week 2
+  | 06-07-2026
+</p>
 ```
 
 ✅ This proof must be visible in your browser screenshot submission.
