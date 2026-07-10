@@ -1,0 +1,2 @@
+- [Portfolio site Terraform baseline](portfolio-site-terraform-baseline.md) — current state of terraform/ (S3+CloudFront) as of 2026-07-10, what's already compliant vs. gaps
+- [Calibrate severity to actual risk](feedback-severity-calibration.md) — user wants findings scoped to what applies to this low-traffic static site, not generic checklist maximalism
